@@ -14,7 +14,7 @@ function App() {
       <nav>
         <ul>          
           <li>
-            <Link to="/">Home Page</Link>
+            <Link to="/list-contacts">Phonebook</Link>
           </li>
           <li>
             <Link to="/add-new-contact">Add New Contact</Link>
@@ -23,7 +23,7 @@ function App() {
       </nav>
     </header>
       <Routes>
-        <Route path="/" element={<Phonebook/>}/>
+        <Route path="/list-contacts" element={<Phonebook/>}/>
         <Route path='/add-new-contact' element={<AddNewContact/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
