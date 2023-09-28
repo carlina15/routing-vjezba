@@ -17,7 +17,7 @@ function App() {
             <Link to="/">Home Page</Link>
           </li>
           <li>
-            <Link to="add-new-cotact">Add New Contact</Link>
+            <Link to="/add-new-contact">Add New Contact</Link>
           </li>
         </ul>
       </nav>
